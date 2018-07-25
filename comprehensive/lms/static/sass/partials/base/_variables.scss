@@ -6,8 +6,8 @@
 
 // MS Blue Color: CourseName, footer links, top left buttons and other buttons (the one on the course page), also the links on the page texts get that color.
 // This is the common MS Blue colour for all MS sites.
-$ms-color: #0072c6;
-
+//$ms-color: #0072c6;
+$ms-color: #ff4f01;
 // Main Color variables
 // White Color
 $main-color: #FFFFFF;
@@ -19,14 +19,20 @@ $ms-border: #D2D2D2;
 $ms-cert-border: #00B0E3;
 
 // MS Button Colors
-$ms-primary-button-hover: #00188F;
-$ms-secondary-button-hover: #D2D2D2;
-$ms-secondary-button-border: #737373;
+// $ms-primary-button-hover: #00188F;
+// $ms-secondary-button-hover: #D2D2D2;
+// $ms-secondary-button-border: #737373;
 $ms-primary-button-text: #333333;
+$ms-primary-button-hover: #ff4f01;
+$ms-secondary-button-hover: #e54904;
+$ms-secondary-button-border: #d44202;
 
 $dark-color: $ms-color; //Link Color
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+//$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+$light-color: #e54904; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+
 
 //Main BG Color Variables
 $main-bg: $ms-color;
@@ -36,7 +42,8 @@ $main-bg-60: lighten($ms-border, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($ms-border, 25%); 
 
 //Secondary Color Variables
-$secondary: #b5a4b7;
+//$secondary: #b5a4b7;
+$secondary: #c9b899;
 $secondary-50: lighten($secondary, 9%);
 $secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
 
